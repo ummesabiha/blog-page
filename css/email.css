@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a, a:hover { 
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Abhaya Libre', serif;
+    background-color: #d5ddd6;
+}
+/* form start */
+
+/* menu start */
+.color {
+    background-color: #000;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.144);
+}
+
+.emenu ul {
+    display: flex;
+}
+
+.emenu li {
+    color:rgba(255, 255, 255, 0.466);;
+    margin: 8px 6px -4px 0px;
+}
+
+.emenu a {
+    color: rgba(255, 255, 255, 0.466);;
+}
+
+.emenu i,
+a {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.emenu a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.amenu ul {
+    display: flex;
+    margin-left: 80%;
+}
+
+.amenu li {
+    color: rgba(255, 255, 255, 0.466);
+    margin: 8px 6px -4px 0px;
+}
+
+.amenu a {
+    color: rgba(255, 255, 255, 0.466);
+}
+.amenu i,
+a {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.amenu a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+/* menu end */
+
+.head h4 {
+    font-weight: bolder;
+    font-size: 28px;
+    margin: 100px 0px 30px;
+}
+
+#form button {
+    color: #fff;
+    font-weight: bold;
+    background-color: grey;
+    border: none;
+    padding: 8px 16px;
+    margin-bottom: 25px;
+}
+
+#form button:hover {
+    text-decoration: underline;
+}
+/* form end */
+
+/* touch start */
+footer {
+    background-color: rgba(241, 69, 98, 0.5);
+}
+
+.touch h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: 44px;
+    margin-bottom: 22px;
+}
+
+.touch h4 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.touch p {
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 39px;
+    padding-bottom: 22px;
+    line-height: 27px;
+}
+
+.call {
+    width: 380px;
+    height: 450px;
+    margin-top: -86%;
+    margin-left: 137%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.199);
+    border-radius: 2px;
+}
+
+.call_us h5 {
+    padding-top: 54px;
+}
+/* touch end */

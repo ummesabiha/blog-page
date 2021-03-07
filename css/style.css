@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a, a:hover { 
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Abhaya Libre', serif;
+    background-color: #d5ddd6;
+}
+
+/* navbar start */
+
+.menu {
+    background-color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: rgb(10, 85, 10);
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+   text-decoration: underline;
+   transition: all linear .3s;
+}
+
+icon ul { 
+    display: flex;
+}
+
+icon li {
+    color: rgb(9, 73, 9);
+    padding-left: 28px;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+/* navbar end */
+/* banner start */
+
+#banner {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.box {
+    background-color: rgba(255, 255, 255, 0.452);
+    width: 450px;
+    height: 242px;
+    position: absolute;
+    justify-content: center;
+    margin: 63px 0px 0px 628px;
+}
+
+.box h3 {
+    color: rgb(9, 73, 9);
+    font-weight: 800;
+    font-size: 103px;
+    text-transform: uppercase;
+    font-family: 'Abhaya Libre', serif;
+    margin: 21px 0px 0px 69px;
+}
+
+.box h3:first-letter {
+    color: rgb(9, 73, 9);
+    font-size: 160px;
+    font-weight: 800;
+}
+
+.box p {
+    color: rgb(9, 73, 9);
+    text-transform: uppercase;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+    margin: -58px 0px 0px 80px;
+}
+
+.box p:first-letter {
+    font-size: 24px;
+    position: relative;
+}
+
+.box p:after {
+    width: 66px;
+    height: 2px;
+    content: "";
+    bottom: 58px;
+    left: 75.3%;
+    position: absolute;
+    background-color: rgb(9, 73, 9);
+}
+
+.box p span:after {
+    width: 50px;
+    height: 2px;
+    content: "";
+    bottom: 53px;
+    left: 75.3%;
+    position: absolute;
+    background-color: rgb(9, 73, 9);
+}
+
+.box p:before {
+    width: 66px;
+    height: 2px;
+    content: "";
+    bottom: 58px;
+    left: 7.3%;
+    position: absolute;
+    background-color: rgb(9, 73, 9);
+}
+
+.box p span:before {
+    width: 50px;
+    height: 2px;
+    content: "";
+    bottom: 53px;
+    left: 11.3%;
+    position: absolute;
+    background-color: rgb(9, 73, 9);
+}
+/* banner end */
+
+/* recent start */
+
+#recent {
+    background-color: #d5ddd6;
+}
+
+.head h5 {
+    color: #fff;
+    background-color: rgb(9, 73, 9);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 12px 0px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    margin-left: 31%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: -8px;
+    position: absolute;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid rgb(9, 73, 9);
+}
+
+.image {
+    background-color: #fff;
+    margin-top: -8px;
+}
+
+.image img {
+    margin: 18px 0px;
+    padding: 0px 12px;
+}
+
+.image h6{
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    padding: 0px 8px 8px ;
+}
+
+.image h6:after {
+    position: absolute;
+    content: "";
+    bottom: -3px;
+    left: 37%;
+    height: 2px;
+    width: 75px;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+.image p {
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+button {
+    color: #fff;
+    background-color: rgb(9, 73, 9);
+    border: none;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    margin-bottom: 14px;
+    margin-left: 33%;
+}
+
+.food p {
+    padding-bottom: 32px;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.images {
+    background-color: #fff;
+}
+
+.about_me h5 {
+    color: #fff;
+    background-color: rgb(9, 73, 9);
+    text-align: center;
+    margin-top: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 12px 0px;
+    position: relative;
+}
+
+.round {
+    margin-top: -85px;
+    margin-left: 68px;
+    margin-right: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.round img {
+    width: 172px;
+    height: 172px;
+    margin-bottom: 20px;
+}
+
+.images h6 {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    margin: 0px 8px;
+    padding: 0px 10px 8px;
+    letter-spacing: 1px;
+}
+
+.about_me .arrow2 {
+    width: 0;
+    height: 0;
+    margin-left: 31%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: -8px;
+    position: absolute;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid rgb(197, 17, 17);
+}
+
+.images p {
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin: 0px 12px;
+    text-transform: uppercase;
+    padding-top: 12px;
+    padding-bottom: 35px;
+}
+
+/* recent end */
+/* footer start */
+
+.foot {
+    background-color: #fff;
+}
+
+.foot p {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16px 12px;
+    line-height: 26px;
+}
+
+.foot_icon {
+    background-color: #fff;
+}
+.foot_sm ul {
+    display: flex;
+}
+
+.foot_sm ul li {
+    color: rgb(9, 73, 9);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 22px 37px 20px 14px;
+    /* border: 2px solid rgb(9, 73, 9);
+    border-radius: 50%; */
+}
+
+.fa-facebook-f:hover {
+    color: rgb(10, 77, 104);
+    transition: all linear .3s;
+}
+
+.fa-twitter:hover {
+    color: darkblue;
+    transition: all linear .3s;
+}
+
+.fa-linkedin:hover {
+    color: rgb(26, 135, 179);
+    transition: all linear .3s;
+}
+
+.fa-pinterest-p:hover {
+    color: rgb(123, 163, 179);
+    transition: all linear .3s;
+}
+
+
+
+
+/* .foot_sm ul li:hover {
+    color: rgb(8, 168, 8);
+    transition: all linear .3s;
+} */
+
+.foot_sm1 ul {
+    display: flex;
+}
+
+.foot_sm1 ul li {
+    color: rgb(9, 73, 9);
+    font-weight: bold;
+    margin: -25px 34px 16px 13px;
+    font-size: 20px;
+    /* border: 2px solid rgb(9, 73, 9);
+    border-radius: 50%; */
+}
+
+.fa-google-plus-g:hover {
+    color: rgb(13, 13, 14);
+    transition: all linear .3s;
+}
+
+.fa-instagram:hover {
+    color: rgb(10, 104, 65);
+    transition: all linear .3s;
+}
+
+.fa-rss:hover {
+    color: rgb(3, 3, 3);
+    transition: all linear .3s;
+}
+
+.fa-youtube:hover {
+    color: rgb(221, 15, 15);
+    transition: all linear .3s;
+}
+
+/* .foot_sm1 ul li:hover {
+    color: rgb(8, 168, 8);
+    transition: all linear .3s;
+} */
+/* footer end */
+/*  copy start */
+
+.copy {
+    color: #fff;
+    background-color: rgb(9, 73, 9);
+    text-align: center;
+    padding: 14px 0px 8px;
+}
+/* copy end */

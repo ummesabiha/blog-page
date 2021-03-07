@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a, a:hover { 
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Abhaya Libre', serif;
+    background-color: #d5ddd6;
+}
+
+/* menu start */
+
+.menu {
+    background-color: rgba(255, 255, 255, 0.192);;
+}
+
+icon ul li {
+    font-size: 20px;
+    margin-right: 6px;
+    line-height: 33px;
+    background-color: rgba(205, 92, 92, 0);
+    padding: 8px 12px;
+    text-align: right;
+    align-items: right;
+}
+/* menu end */
+
+/* banner start */
+
+#banner {
+    background-color: rgba(65, 43, 161, 0.548);
+}
+
+.img {
+    width: 50%;
+    height: 400px;
+}
+/* banner end */
